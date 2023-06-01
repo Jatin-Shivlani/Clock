@@ -1,0 +1,80 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body::before {
+  content: "";
+  background: url(./Bg2.png);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+  opacity: 0.9;
+
+
+}
+
+
+
+.day {
+
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+
+}
+
+.time {
+  font-family: 'Play', sans-serif;
+  background-color: transparent;
+  color: white;
+  font-size: 4rem;
+  font-weight: 200;
+
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+ul {
+  display: flex;
+  margin-top: 0px;
+  position: relative;
+  top: 50px;
+}
+
+li {
+  list-style: none;
+  margin: 0px;
+}
+
+.stop,
+.play {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 0px;
+  background-color: #7989fb;
+  color: #413a3a;
+  font-family: 'Play', sans-serif;
+}
+
+.stop:hover {
+
+  cursor: pointer;
+}
+
+.play:hover {
+
+  cursor: pointer;
+}
